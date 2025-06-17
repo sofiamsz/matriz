@@ -11,9 +11,9 @@ for (let i = 0; i < 4; i++){
     matrizDD [i] = new Array(4);
 
     for (let j = 0; j < 4; j++){
-        let nome: number = teclado(`Digite o número que vai estar no endereço [${i}, ${j}]
+        let numero: number = teclado(`Digite o número que vai estar no endereço [${i}, ${j}]
             da matriz: `);
-            matrizDD[i][j] = nome;
+            matrizDD[i][j] = numero;
     }
 }
 

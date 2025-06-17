@@ -8,9 +8,9 @@ for (let z = 0; z < linha; z++) {
     matriz[z] = [];
 
     for (let x = 0; x < coluna; x++){
-        let nome: number = teclado(`Digite o número que vai estar no endereço [${z}, ${x}]
+        let numero: number = teclado(`Digite o número que vai estar no endereço [${z}, ${x}]
             da matriz: `);
-   matriz[z][x] = nome;
+   matriz[z][x] = numero;
  }
 }
 
